@@ -1,0 +1,64 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+.flex{
+    display: flex;
+    margin: 1.5%;
+    justify-content: center;
+  }
+  
+.formatacao{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 5px 0;
+  }
+  
+#subTitulo-form{
+    font-size: large;
+    margin: 20px 0 0 0;
+  }
+  
+form fieldset{
+    display: flex;
+    flex-direction: column;
+  }
+  
+form fieldset legend{
+    margin: 15px;
+  }
+  
+form fieldset select {
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+.checkbox{
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0;
+  }
+  
+.enviar{
+    width: 50%;
+    height: 40px;
+    background: linear-gradient(to right, orange, rgb(199, 131, 5)) ;
+    border: black 1px solid;
+    border-radius: 9px;
+  }
+  
+.enviar:hover{
+    display: flex;
+    justify-content: center;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+
+h1{
+      font-size: xx-large;
+      font-family: cursive;
+  }
+  

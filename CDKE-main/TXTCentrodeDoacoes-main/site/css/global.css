@@ -1,0 +1,144 @@
+body{
+  box-sizing: border-box;
+   }
+   
+   header{
+     display: flex;
+     padding: 0px;
+     background-color: #F2B544;
+     justify-content: space-around;
+     font-family: cursive;
+     align-content: space-between;
+  }
+
+  header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header div nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  main{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    /* height: 1100px; */
+    /* justify-content: center;
+    background-image: url(../img/Cachorro-e-Gato-Morando-Juntos-Quais-os-Cuidados-1024x576-1.jpg);
+    background-position: center;
+    background-size: 100%;
+    opacity: 0.8; */
+  }
+
+  footer{
+    display: flex;
+    background-color: #0E4765;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+  }
+  
+  .logo-position{
+    display: flex;
+    justify-content: start;
+    width: 200px;
+    height: 200px; 
+    
+  }
+  
+  a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    flex-direction: row;
+    
+  }
+  
+  .display-inline{
+    display: inline-block;
+    
+  }
+
+.titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  font-size: x-large;
+}
+
+.recepção{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+  font-size: large;
+}
+
+.Frase{
+  font-size: xx-large;
+}
+
+.Sobre{
+  font-size: x-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.Nós{
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vid-pet{
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.pessoinha{
+  display: flex;
+  justify-content: right;
+  width: 30px;
+  height: 30px;
+}
+
+@media(max-width: 1920px){
+  .flex{
+    flex-direction: row;
+  }
+
+  .flex-li{
+    width: 50%;
+  }
+
+}
+
+@media(min-width: 300px){
+  .flex{
+    flex-direction: column;
+  }
+
+  .flex-li{
+    width: 50%;
+  }
+
+}
+
+@media(min-width: 1250px){
+  .GatoRacao{
+    justify-content: start;
+    align-content: flex-start;
+  }
+}

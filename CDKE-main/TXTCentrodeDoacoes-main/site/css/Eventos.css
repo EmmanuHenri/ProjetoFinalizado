@@ -1,0 +1,107 @@
+
+.img-zoom img{
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.img-zoom:hover img{
+    transform: scale(1.2);
+}
+
+.Malucao{
+    display: inline;
+    border-radius: 15px;
+    border: black dashed;
+}
+
+.EV{
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+}
+
+.EV2{
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+}
+
+.img__event-1{
+    display: flex;
+    background: rgb(252, 94, 94);
+}
+
+.img__event-2{
+    display: flex;
+    background: #71ff9e;
+}
+
+.Natal{
+    display: inline;
+    border-radius: 15px;
+    border: dashed black;
+}
+
+
+.img-zoom-2 img{
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.img-zoom-2:hover img{
+    transform: scale(1.1);
+}
+
+.descricão{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+.Dogift{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: 0px 20px 20px 0px rgb(126, 0, 0);
+}
+
+.GatoRacao{
+    display: flex;
+    width: 50%;
+    height: 40%;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: 0px 20px 20px 0px rgb(10, 97, 1);
+}
+
+.Agradecimento{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+.Anuncio{
+    display: flex;
+    font-size: xx-large;
+    font-family: cursive;
+    justify-content: center;
+    background: green;
+}
+
+main{
+    background-image: url(../img/christmas-themed-nawpic-8.jpg);
+}
+
+/* @media screen {
+
+} */
